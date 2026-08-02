@@ -120,3 +120,16 @@ header{
   max-width: 900px;
   margin: 0 auto;
 }
+.features{
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin-top: 25px;
+}
+.features li{
+  flex: 1;
+  background-color: #FFFFFF;
+  padding: 25px;
+  border-radius: 8px;
+  font-weight: bold;
+}
