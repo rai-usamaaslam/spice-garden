@@ -56,3 +56,50 @@ header{
 .nav-button:hover{
   background-color: #966E2E;
 }
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F3E7D3;
+  min-height: 100vh;
+  padding: 60px 40px;
+}
+.hero-content{
+  width: 50%;
+}
+.hero-content h1{
+  font-size: 60px;
+  color: #222;
+  margin-bottom: 25px;
+}
+.hero-content p{
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+.hero-buttons{
+  display: flex;
+  gap: 25px;
+}
+.hero-buttons button{
+  background-color: #B8893D;
+  padding: 12px 20px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hero-buttons button:hover{
+   background-color: #966E2E;
+}
+.hero-image{
+  width: 50%;
+  text-align:center;
+}
+.hero-image img{
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+}
