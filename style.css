@@ -133,3 +133,33 @@ header{
   border-radius: 8px;
   font-weight: bold;
 }
+.why-choose-us{
+  padding: 80px 60px;
+  background-color: #F5F1EA;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+.why-choose-us h2{
+  font-size: 40px;
+  color: #252525;
+  margin-bottom: 25px;
+  grid-column: 1 / -1;
+}
+.feature-card{
+  background-color: #FFFFFF;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+.feature-card h3{
+  font-size: 22px;
+  background-color: #FFFFFF;
+  margin-bottom: 12px;
+}
+.feature-card p{
+  font-size: 18px;
+  color: #252525;
+  line-height: 1.16;
+}
