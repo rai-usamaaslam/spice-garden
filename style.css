@@ -240,3 +240,83 @@ header{
 .menu-footer button:hover{
   background-color: #966E2E;
 }
+.menu{
+  padding: 80px 60px;
+  background-color: #F5F1EA;
+}
+
+.menu-heading{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.menu-heading h2{
+  font-size: 40px;
+  color: #252525;
+}
+
+.menu-tabs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.menu-tabs button{
+  background-color: #FFFFFF;
+  color: #252525;
+  border: 2px solid #B8893D;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-tabs button:hover{
+  background-color: #B8893D;
+  color: #FFFFFF;
+}
+
+.menu-category{
+  margin-bottom: 60px;
+}
+
+.menu-category h2{
+  font-size: 30px;
+  color: #252525;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #B8893D;
+}
+
+.menu-items{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+
+.menu-item h3{
+  font-size: 19px;
+  color: #252525;
+}
+
+.menu-item span{
+  font-size: 17px;
+  font-weight: bold;
+  color: #966E2E;
+}
