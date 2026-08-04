@@ -419,3 +419,122 @@ header{
   color: #666666;
   line-height: 1.6;
 }
+.reservation{
+  padding: 80px 60px;
+  background-color: #F3E7D3;
+}
+
+/* Reservation Heading */
+
+.reservation-heading{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reservation-heading h1{
+  font-size: 40px;
+  color: #252525;
+  margin-bottom: 15px;
+}
+
+.reservation-heading p{
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/* Reservation Form */
+
+.reservation-form{
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 35px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+/* Form Group */
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Labels */
+
+.form-group label{
+  font-size: 16px;
+  font-weight: bold;
+  color: #252525;
+}
+
+/* Inputs and Select */
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+  width: 100%;
+  padding: 13px;
+  font-size: 15px;
+  color: #252525;
+  background-color: #F5F1EA;
+  border: 1px solid #D6C7B0;
+  border-radius: 7px;
+  outline: none;
+}
+
+/* Textarea */
+
+.form-group textarea{
+  resize: vertical;
+}
+
+/* Focus Effect */
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+  border-color: #B8893D;
+}
+
+
+.form-group:has(textarea){
+  grid-column: 1 / -1;
+}
+
+.reservation-form button{
+  grid-column: 1 / -1;
+  background-color: #B8893D;
+  color: #FFFFFF;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reservation-form button:hover{
+  background-color: #966E2E;
+}
+.reservation-message {
+  text-align: center;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.contact{
+  padding: 80px 60px;
+  background-color: #F5F1EA;
+}
+
