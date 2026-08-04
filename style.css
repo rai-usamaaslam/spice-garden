@@ -537,4 +537,55 @@ header{
   padding: 80px 60px;
   background-color: #F5F1EA;
 }
+.contact-heading{
+  text-align: center;
+  margin-bottom: 45px;
+}
 
+.contact-heading h1{
+  font-size: 40px;
+  color: #252525;
+  margin-bottom: 15px;
+}
+
+.contact-heading p{
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/* Contact Cards */
+
+.contact-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+/* Contact Item */
+
+.contact-item{
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+/* Contact Title */
+
+.contact-item h2{
+  font-size: 22px;
+  color: #966E2E;
+  margin-bottom: 15px;
+}
+
+
+.contact-item p{
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
