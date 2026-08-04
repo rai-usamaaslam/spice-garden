@@ -589,3 +589,27 @@ header{
   line-height: 1.6;
   margin-bottom: 8px;
 }
+.newsletter{
+  padding: 80px 60px;
+  background-color: #252525;
+}
+
+.newsletter-content{
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter-content h1{
+  font-size: 40px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.newsletter-content p{
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 17px;
+  color: #F5F1EA;
+  line-height: 1.6;
+}
+
