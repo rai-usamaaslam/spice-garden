@@ -30,3 +30,13 @@ reservationForm.addEventListener("submit", (event) => {
   reservationMessage.textContent = "Your table has been reserved successfully!";
   reservationForm.reset();
 });
+
+const newsletterForm = document.querySelector(".newsletter-form");
+const newsletterMessage = document.querySelector(".newsletter-message");
+
+newsletterForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  newsletterMessage.textContent ="Thank you! You have subscribed successfully.";
+  newsletterForm.reset();
+});
