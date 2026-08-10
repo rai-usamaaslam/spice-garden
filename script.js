@@ -21,4 +21,12 @@ categoryButtons.forEach((button) => {
     });
   });
 });
+//Form Validation
+const reservationForm = document.querySelector(".reservation-form");
+const reservationMessage = document.querySelector(".reservation-message");
 
+reservationForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  reservationMessage.textContent = "Your table has been reserved successfully!";
+  reservationForm.reset();
+});
