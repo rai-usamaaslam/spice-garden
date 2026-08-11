@@ -40,4 +40,21 @@ newsletterForm.addEventListener("submit", (event) => {
   newsletterMessage.textContent ="Thank you! You have subscribed successfully.";
   newsletterForm.reset();
 });
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+});
+const galleryImages =
+  document.querySelectorAll(".gallery-item img");
+
+const imagePopup =
+  document.querySelector(".image-popup");
+
+const popupImage =
+  document.querySelector(".image-popup img");
+
+const closePopup =
+  document.querySelector(".close-popup");
 
