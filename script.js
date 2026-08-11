@@ -40,3 +40,4 @@ newsletterForm.addEventListener("submit", (event) => {
   newsletterMessage.textContent ="Thank you! You have subscribed successfully.";
   newsletterForm.reset();
 });
+
