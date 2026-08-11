@@ -57,4 +57,15 @@ const popupImage =
 
 const closePopup =
   document.querySelector(".close-popup");
+galleryImages.forEach((image) => {
+  image.addEventListener("click", () => {
+    popupImage.src = image.src;
+    popupImage.alt = image.alt;
 
+    imagePopup.classList.add("show");
+  });
+});
+
+closePopup.addEventListener("click", () => {
+  imagePopup.classList.remove("show");
+});
