@@ -69,6 +69,7 @@ galleryImages.forEach((image) => {
 closePopup.addEventListener("click", () => {
   imagePopup.classList.remove("show");
 });
+
 const sections = document.querySelectorAll("main section");
 
 const navItems =
@@ -84,3 +85,33 @@ window.addEventListener("scroll", () => {
       currentSection = section.id;
     }
   });
+
+  navItems.forEach((link) => {
+    link.classList.remove("active");
+
+    if (
+      link.getAttribute("href") ===
+      `#${currentSection}`
+    ) {
+      link.classList.add("active");
+    }
+  });
+});
+
+const scrollTopButton =
+  document.querySelector(".scroll-top");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 500) {
+    scrollTopButton.classList.add("show");
+  } else {
+    scrollTopButton.classList.remove("show");
+  }
+});
+
+scrollTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
