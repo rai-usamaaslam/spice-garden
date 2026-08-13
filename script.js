@@ -69,3 +69,18 @@ galleryImages.forEach((image) => {
 closePopup.addEventListener("click", () => {
   imagePopup.classList.remove("show");
 });
+const sections = document.querySelectorAll("main section");
+
+const navItems =
+  document.querySelectorAll(".nav-links a");
+
+window.addEventListener("scroll", () => {
+  let currentSection = "";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+
+    if (window.scrollY >= sectionTop - 150) {
+      currentSection = section.id;
+    }
+  });
