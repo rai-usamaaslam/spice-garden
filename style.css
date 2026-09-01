@@ -117,9 +117,7 @@ header {
 .hero-buttons button:hover {
   background-color: #966e2e;
 }
-.hero-image {
-  display: none;
-}
+
 .about {
   padding: 80px 60px;
   background-color: #f5f1ea;
